@@ -3,8 +3,8 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="Start your Automation in 3 easy Steps!!"
+    description="Below are the features of the automaton application"
   >
     <VerticalFeatureRow
       title="Get Started Fast!"
@@ -21,7 +21,7 @@ const VerticalFeatures = () => (
     />
     <VerticalFeatureRow
       title="Focus on Care"
-      description="Spend your time where it matters most — with your patients, not the paperwork."
+      description="Spend your time where it matters most — with your clients, not the paperwork."
       image="/assets/images/undraw_loving-it_hspq.svg"
       imageAlt="Third feature alt text"
     />
