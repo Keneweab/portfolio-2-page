@@ -1,6 +1,5 @@
 import type { ReactNode } from 'react';
 
-import { FooterCopyright } from './FooterCopyright';
 import { FooterIconList } from './FooterIconList';
 
 type ICenteredFooterProps = {
@@ -14,18 +13,18 @@ const CenteredFooter = (props: ICenteredFooterProps) => (
     {props.logo}
 
     <nav>
-      <ul className="navbar mt-5 flex flex-row justify-center text-xl font-medium text-gray-800">
+      <ul className="navbar mt-5 flex flex-row justify-center space-x-5 text-xl font-medium text-gray-800">
         {props.children}
       </ul>
     </nav>
 
-    <div className="mt-8 flex justify-center">
+    <div className="mt-8 flex justify-center space-x-5">
       <FooterIconList>{props.iconList}</FooterIconList>
     </div>
 
-    <div className="mt-8 text-sm">
+    {/* <div className="mt-8 text-sm">
       <FooterCopyright />
-    </div>
+    </div> */}
 
     <style jsx>
       {`

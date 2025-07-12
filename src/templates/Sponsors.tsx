@@ -13,7 +13,7 @@ const Sponsors = () => (
               target="_blank"
             >
               <Image
-                src="/assets/images/clerk-logo-dark.png"
+                src="/assets/images/google_cloud-ar21~bgwhite.svg"
                 alt="Clerk – Authentication & User Management for Next.js"
                 width={260}
                 height={224}
@@ -26,7 +26,7 @@ const Sponsors = () => (
               target="_blank"
             >
               <Image
-                src="/assets/images/coderabbit-logo-light.svg"
+                src="/assets/images/postgresql-vertical.svg"
                 alt="CodeRabbit"
                 width={260}
                 height={224}
@@ -39,7 +39,7 @@ const Sponsors = () => (
               target="_blank"
             >
               <Image
-                src="/assets/images/sentry-dark.png"
+                src="/assets/images/mongodb-ar21.svg"
                 alt="Sentry"
                 width={260}
                 height={224}
@@ -51,7 +51,7 @@ const Sponsors = () => (
           <td className="border-2 border-gray-300 p-3">
             <a href="https://launch.arcjet.com/Q6eLbRE" target="_blank">
               <Image
-                src="/assets/images/arcjet-light.svg"
+                src="/assets/images/ChatGPT_logo.svg"
                 alt="Arcjet"
                 width={260}
                 height={224}
@@ -61,7 +61,7 @@ const Sponsors = () => (
           <td className="border-2 border-gray-300 p-3">
             <a href="https://l.crowdin.com/next-js" target="_blank">
               <Image
-                src="/assets/images/crowdin-dark.png"
+                src="/assets/images/gitbook-ar21~bgwhite.svg"
                 alt="Better Stack"
                 width={260}
                 height={224}
